@@ -28,6 +28,9 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      filter: grayscale(100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+      
 
       @include respond(tab-land) {
         height: 100%;
